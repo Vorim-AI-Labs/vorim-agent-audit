@@ -1,0 +1,9 @@
+# FIXTURE: agent config with wildcard scope and no expiry.
+# Tests the long-lived rule.
+
+agent:
+  name: data-analyst
+  scope: "*"
+  role: admin
+  expires_at: null
+  ttl: 0

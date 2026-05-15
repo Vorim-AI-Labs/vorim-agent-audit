@@ -1,0 +1,62 @@
+{
+  "name": "@vorim/agent-audit",
+  "version": "0.1.0",
+  "description": "Free AI agent code hygiene checker. Scans for hardcoded LLM keys, shared credentials, and long-lived agent permissions in TypeScript, JavaScript, and Python projects.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "vorim-audit": "dist/index.js",
+    "agent-audit": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "keywords": [
+    "vorim",
+    "ai-agents",
+    "agent-identity",
+    "security",
+    "secret-scanner",
+    "llm-security",
+    "openai",
+    "anthropic",
+    "langchain",
+    "crewai",
+    "mcp",
+    "cli",
+    "developer-tools"
+  ],
+  "author": "Vorim AI <kwame@vorim.ai>",
+  "license": "MIT",
+  "homepage": "https://github.com/Kzino/vorim-agent-audit",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kzino/vorim-agent-audit"
+  },
+  "bugs": {
+    "url": "https://github.com/Kzino/vorim-agent-audit/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "picocolors": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.4.0",
+    "vitest": "^2.1.0"
+  }
+}
