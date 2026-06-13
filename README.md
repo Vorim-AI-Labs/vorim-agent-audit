@@ -293,4 +293,4 @@ Want to add a new pattern? Edit `src/patterns.ts` and add a fixture in
 
 MIT. Use it however you like.
 
-Built by [Vorim](https://vorim.ai) · [GitHub](https://github.com/Kzino/vorim-agent-audit) · [npm](https://www.npmjs.com/package/@vorim/agent-audit)
+Built by [Vorim](https://vorim.ai) · [GitHub](https://github.com/Vorim-AI-Labs/vorim-agent-audit) · [npm](https://www.npmjs.com/package/@vorim/agent-audit)

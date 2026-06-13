@@ -39,13 +39,13 @@
   ],
   "author": "Vorim AI <kwame@vorim.ai>",
   "license": "MIT",
-  "homepage": "https://github.com/Kzino/vorim-agent-audit",
+  "homepage": "https://github.com/Vorim-AI-Labs/vorim-agent-audit",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Kzino/vorim-agent-audit"
+    "url": "https://github.com/Vorim-AI-Labs/vorim-agent-audit"
   },
   "bugs": {
-    "url": "https://github.com/Kzino/vorim-agent-audit/issues"
+    "url": "https://github.com/Vorim-AI-Labs/vorim-agent-audit/issues"
   },
   "engines": {
     "node": ">=18"
